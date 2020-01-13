@@ -1,0 +1,42 @@
+name: digital_clock
+description: Digital clock.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_clock_helper:
+    path: ../flutter_clock_helper
+  cupertino_icons: ^0.1.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  path_drawing: ^0.4.0
+
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: PressStart2P
+      fonts:
+        - asset: third_party/PressStart2P-Regular.ttf
+
+    - family: pressStart
+      fonts:
+        - asset: assets/fonts/circular_std_book.ttf
+
+    - family: rubika
+      fonts:
+        - asset: assets/fonts/rubika.ttf
+
+  assets:
+    - assets/images/
+
+
